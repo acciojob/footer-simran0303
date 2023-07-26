@@ -1,1 +1,52 @@
-/* your code here */
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+	color:white;
+	background:black;
+	
+}
+.top{
+    padding:30px 25px;
+	display:flex;
+	justify-content:space-between;
+	align-items: center;
+}
+
+.media-icons img{
+    margin:5px;
+}
+
+.link-boxes{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+hr{
+    width:10%;
+}
+
+::marker{
+    content:"";
+}
+ul{
+    width:300px;
+}
+
+li{
+    margin:10px 0px;
+}
+
+.bottom-details {
+    margin-top: 35px;
+    display:flex;
+    justify-content: space-between;
+    padding:0px 25px;
+    background-color: rgba(46, 79, 163, 0.287);
+}
+
+.bottom-details div{
+    margin-top: 25px;
+    margin-bottom:10px;
+    background-color: rgba(46, 79, 163, 0.287);
+}
