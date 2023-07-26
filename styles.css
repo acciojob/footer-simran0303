@@ -50,3 +50,7 @@ li{
     margin-bottom:10px;
     background-color: rgba(46, 79, 163, 0.287);
 }
+
+.media-icons{
+	display:flex;
+}
